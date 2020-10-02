@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".PreferencesActivity">
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/preferencesIntroText"
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/iconImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinnerLocations"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonAdd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="21dp"
+            android:layout_weight="1"
+            android:text="@string/addButtonText"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove3"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove4"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove5"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove6"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove7"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove8"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove9"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="2"
+            android:text="@string/location1Text" />
+
+        <Button
+            android:id="@+id/buttonRemove10"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.5"
+            android:text="@string/removeButtonText"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+</LinearLayout>
